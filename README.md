@@ -4,7 +4,7 @@ The analysis and Excel workbook in this repository are licensed under the MIT Li
 
 ## Overview
 
-An analysis using of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
+An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
 
 ## Dataset
 
@@ -12,9 +12,9 @@ The data set I used is from Kaggle: https://www.kaggle.com/datasets/johnsmith88/
 
 In the original data there were 1025 data points but 723 of them were duplicates, leaving only 302 unique data points.
 
-This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 13 of them. The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) as I didn't use it in my analysis, which brings down the number of columns to 13.
+This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 13 of them. The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) and the 'oldpeak' attribute (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the number of columns to 12.
 
-Attribute documentation (13 attributes in total including 'target'):
+Attribute documentation (12 attributes in total including 'target'):
       
       1 age: age in years
       
@@ -40,17 +40,15 @@ Attribute documentation (13 attributes in total including 'target'):
       8 thalach: maximum heart rate achieved
       
       9 exang: exercise induced angina (1 = yes; 0 = no)
-      
-     10 oldpeak = ST depression induced by exercise relative to rest
      
-     11 slope: the slope of the peak exercise ST segment
+     10 slope: the slope of the peak exercise ST segment
         -- Value 1: upsloping
         -- Value 2: flat
         -- Value 3: downsloping
         
-     12 thal: 1 = normal; 2 = fixed defect; 3 = reversible defect
+     11 thal: 1 = normal; 2 = fixed defect; 3 = reversible defect
      
-     13 target: diagnosis of heart disease; 0 = no disease and 1 = disease.
+     12 target: diagnosis of heart disease; 0 = no disease and 1 = disease.
 
 ## Objectives
 
