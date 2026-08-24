@@ -1,5 +1,5 @@
 # heart-disease-analysis
-An analysis using Excel of heart disease patients from the https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download.
+An analysis using Excel of heart disease patients from the https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download dataset.
 
 The analysis and Excel workbook in this repository are licensed under the MIT License. The underlying dataset is sourced from Kaggle and remains subject to its original license and terms.
 
