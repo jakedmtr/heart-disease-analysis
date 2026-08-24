@@ -13,7 +13,7 @@ File breakdown:
 --------------------------------------------------------------------------------------------------------------
 This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 13 of them. The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) as I didn't use it in my analysis, which brings down the number of columns to 13.
 
-Attribute documentation (12 attributes in total):
+Attribute documentation (13 attributes in total including 'target'):
       
       1 age: age in years
       
