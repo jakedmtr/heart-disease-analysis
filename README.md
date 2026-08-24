@@ -8,7 +8,7 @@ An analysis of heart disease patients using Microsoft Excel. Here I investigated
 
 ## Dataset
 
-The data set I used is from Kaggle: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download
+The data set I used was from Kaggle: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download
 
 In the original data there were 1025 data points but 723 of them were duplicates, leaving only 302 unique data points.
 
