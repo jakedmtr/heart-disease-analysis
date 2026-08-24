@@ -104,9 +104,9 @@ Explain what you found about cholesterol.
 
 ![Chol analysis](images/prevalence_by_chol.png)
 
-### Fasting Blood Pressure
+### Fasting Blood Sugar
 
-Explain what you found about fasting blood pressure.
+Explain what you found about fasting blood sugar.
 
 ![Cpt analysis](images/prevalence_by_fbs.png)
 
@@ -126,7 +126,7 @@ Explain what you found about max heart rate.
 
 Explain what you found about exercise induced angina.
 
-![Exang analysis](images/prevalance_by_exang.png)
+![Exang analysis](images/prevalence_by_exang.png)
 
 ### ST Slope Type
 
