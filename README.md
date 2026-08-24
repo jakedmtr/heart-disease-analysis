@@ -1,5 +1,5 @@
 # heart-disease-analysis
-An analysis using Excel of heart disease patients from the https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download dataset.
+An analysis using of heart disease patients from the https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download dataset using Microsoft Excel.
 
 The analysis and Excel workbook in this repository are licensed under the MIT License. The underlying dataset is sourced from Kaggle and remains subject to its original license and terms.
 
@@ -7,8 +7,8 @@ The analysis and Excel workbook in this repository are licensed under the MIT Li
 
 File breakdown:
 
-* heart_disease.csv - The original data
-* heart_disease.xlsx - My edited Excel spreadsheet
+* /data/heart_disease.csv - The original data
+* /excel/heart_disease.xlsx - My edited Excel spreadsheet
 
 --------------------------------------------------------------------------------------------------------------
 This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 13 of them. The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) as I didn't use it in my analysis, which brings down the number of columns to 13.
