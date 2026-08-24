@@ -28,7 +28,7 @@ Attribute documentation (13 attributes in total including 'target'):
         -- Value 3: non-anginal pain
         -- Value 4: asymptomatic
         
-      5 trestbps: resting blood pressure (in mm Hg on admission to the hospital)
+      5 restbps: resting blood pressure (in mm Hg on admission to the hospital)
       
       6 chol: serum cholesterol in mg/dl
       
@@ -39,7 +39,7 @@ Attribute documentation (13 attributes in total including 'target'):
         -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
         -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
         
-      9 thalach: maximum heart rate achieved
+      9 maxhr: maximum heart rate achieved (bpm)
       
      10 exang: exercise induced angina (1 = yes; 0 = no)
      
