@@ -30,7 +30,7 @@ Attribute documentation (13 attributes in total including 'target'):
         
       5 trestbps: resting blood pressure (in mm Hg on admission to the hospital)
       
-      6 chol: serum cholestoral in mg/dl
+      6 chol: serum cholesterol in mg/dl
       
       7 fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)
       
@@ -44,9 +44,9 @@ Attribute documentation (13 attributes in total including 'target'):
      10 exang: exercise induced angina (1 = yes; 0 = no)
      
      11 slope: the slope of the peak exercise ST segment
-        -- Value 1: upsloping
+        -- Value 1: up-sloping
         -- Value 2: flat
-        -- Value 3: downsloping
+        -- Value 3: down-sloping
         
      12 thal: 1 = normal; 2 = fixed defect; 3 = reversible defect
      
@@ -134,9 +134,9 @@ Explain what you found about ST slope type.
 
 ![Slope analysis](images/prevalence_by_slope.png)
 
-### Thalassemia Type
+### Thalassaemia Type
 
-Explain what you found about thalassemia type.
+Explain what you found about thalassaemia type.
 
 ![Thal analysis](images/prevalence_by_thal.png)
 
