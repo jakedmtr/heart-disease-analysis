@@ -3,6 +3,7 @@ An analysis using of heart disease patients from the https://www.kaggle.com/data
 
 The analysis and Excel workbook in this repository are licensed under the MIT License. The underlying dataset is sourced from Kaggle and remains subject to its original license and terms.
 
+723 duplicate values were found and removed; 302 unique values remained.
 --------------------------------------------------------------------------------------------------------------
 
 File breakdown:
