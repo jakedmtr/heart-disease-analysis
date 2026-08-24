@@ -72,61 +72,73 @@ Attribute documentation (13 attributes in total including 'target'):
 
 54.3% of the patients had heart disease and 45.7% did not have heart disease.
 
-![General](images/prevalance.png)
+![General](images/prevalence.png)
 
 ### Age
 
 Explain what you found about age and heart disease.
 
-![Age analysis](images/prevalance_by_age_group.png)
+![Age analysis](images/prevalence_by_age.png)
 
 ### Sex
 
 Explain what you found about sex and heart disease.
 
-![Sex analysis](images/prevalance_by_sex.png)
+![Sex analysis](images/prevalence_by_sex.png)
 
 ### Chest Pain
 
 Explain what you found about chest-pain categories.
 
-![Chest_pain analysis](images/prevalance_by_cpt.png)
+![Cpt analysis](images/prevalence_by_cpt.png)
+
+### Resting Blood Pressure
+
+Explain what you found about resting blood pressure.
+
+![Restbps analysis](images/prevalence_by_restbps.png)
 
 ### Cholesterol
 
 Explain what you found about cholesterol.
 
-![Sex analysis](images/prevalance_by_chol.png)
+![Chol analysis](images/prevalence_by_chol.png)
 
-### Max HR
+### Fasting Blood Pressure
 
-Explain what you found about max heart rate.
+Explain what you found about fasting blood pressure.
 
-![Sex analysis](images/prevalance_by_maxhr.png)
+![Cpt analysis](images/prevalence_by_fbs.png)
 
 ### Resting ECG
 
 Explain what you found about resting ecg type.
 
-![Sex analysis](images/prevalance_by_ecg.png)
+![ECG analysis](images/prevalence_by_ecg.png)
+
+### Max HR
+
+Explain what you found about max heart rate.
+
+![Maxhr analysis](images/prevalence_by_maxhr.png)
 
 ### Exercise Induced Angina
 
 Explain what you found about exercise induced angina.
 
-![Sex analysis](images/prevalance_by_exang.png)
+![Exang analysis](images/prevalance_by_exang.png)
 
 ### ST Slope Type
 
 Explain what you found about ST slope type.
 
-![Sex analysis](images/prevalance_by_slope.png)
+![Slope analysis](images/prevalence_by_slope.png)
 
 ### Thalassemia Type
 
 Explain what you found about thalassemia type.
 
-![Sex analysis](images/prevalance_by_thal.png)
+![Thal analysis](images/prevalence_by_thal.png)
 
 ## PivotTable Analysis
 
