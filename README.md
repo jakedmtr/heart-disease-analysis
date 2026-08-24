@@ -68,6 +68,12 @@ Attribute documentation (13 attributes in total including 'target'):
 
 ## Exploratory Data Analysis
 
+### General Prevalence
+
+54.3% of the patients had heart disease and 45.7% did not have heart disease.
+
+![General](images/prevalance.png)
+
 ### Age
 
 Explain what you found about age and heart disease.
