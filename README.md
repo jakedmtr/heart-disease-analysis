@@ -63,9 +63,8 @@ Attribute documentation (13 attributes in total including 'target'):
 
 - I checked for missing values; fortunately there were none.
 - I checked for duplicate records; as mentioned above there were 723 duplicates recorded and purged.
-- Invalid values?
-- Data types?
-- Categorical consistency?
+- No invalid values recorded
+- All data types converted to correct format
 
 ## Exploratory Data Analysis
 
@@ -73,21 +72,55 @@ Attribute documentation (13 attributes in total including 'target'):
 
 Explain what you found about age and heart disease.
 
-![Age analysis](images/age_analysis.png)
+![Age analysis](images/prevalance_by_age_group.png)
 
 ### Sex
 
 Explain what you found about sex and heart disease.
 
-![Sex analysis](images/sex_analysis.png)
+![Sex analysis](images/prevalance_by_sex.png)
+
+### Chest Pain
+
+Explain what you found about chest-pain categories.
+
+![Chest_pain analysis](images/prevalance_by_cpt.png)
 
 ### Cholesterol
 
 Explain what you found about cholesterol.
 
-### Chest Pain
+![Sex analysis](images/prevalance_by_chol.png)
 
-Explain what you found about chest-pain categories.
+### Max HR
+
+Explain what you found about max heart rate.
+
+![Sex analysis](images/prevalance_by_maxhr.png)
+
+### Resting ECG
+
+Explain what you found about resting ecg type.
+
+![Sex analysis](images/prevalance_by_ecg.png)
+
+### Exercise Induced Angina
+
+Explain what you found about exercise induced angina.
+
+![Sex analysis](images/prevalance_by_exang.png)
+
+### ST Slope Type
+
+Explain what you found about ST slope type.
+
+![Sex analysis](images/prevalance_by_slope.png)
+
+### Thalassemia Type
+
+Explain what you found about thalassemia type.
+
+![Sex analysis](images/prevalance_by_thal.png)
 
 ## PivotTable Analysis
 
