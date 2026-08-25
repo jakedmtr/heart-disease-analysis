@@ -64,6 +64,8 @@ Attribute documentation (12 attributes in total including 'target'):
 - No invalid values recorded
 - All data types converted to correct format
 
+![Data_cleaning](images/data_quality.png)
+
 ## Exploratory Data Analysis
 
 ### Overwiew
