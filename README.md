@@ -96,19 +96,19 @@ The 20-29 age group has 100% disease prevalence but this is simply due to there 
 
 ### Sex
 
-There were roughly double the amount of male patients to female patients (after cleaning the data) but I would say that there are still a fair amount of female patients to draw some conclusions. It appears that in this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease. This requires further investigation.
+There were roughly double the amount of male patients to female patients (after cleaning the data) but still a fair amount of female patients to perform some analysis. In this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease, suggesting that a patient being female may be more closely associated with having heart disease.
  
 ![Sex analysis](images/sex_prevalence.png)
 
 ### Chest Pain
 
-Chest-pain type.
+The most common type of chest pain experienced by patients was typical angina, however this was the least prevalent chest pain type among those with heart disease. The other three chest pain types all seemed to be associated with having heart disease as they all had prevalence above 69%.
 
 ![Cpt analysis](images/cpt_prevalence.png)
 
 ### Resting Blood Pressure
 
-The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease.
+The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease. Lower values of resting blood pressure tended to be associated with a patient more likely to have heart disease.
 
 ![Restbps](images/rbp.png)
 
