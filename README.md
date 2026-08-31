@@ -84,67 +84,68 @@ Overview
 
 Explain what you found about age and heart disease.
 
-![Age analysis](images/prevalence_by_age.png)
+![Age group_dist](images/age_group_dist.png)
+![Age_group_prevalance](images/age_group_prevalence)
 
 ### Sex
 
 Explain what you found about sex and heart disease.
 
-![Sex analysis](images/prevalence_by_sex.png)
+![Sex analysis](images/sex_prevalence.png)
 
 ### Chest Pain
 
 Explain what you found about chest-pain categories.
 
-![Cpt analysis](images/prevalence_by_cpt.png)
+![Cpt analysis](images/cpt_prevalence.png)
 
 ### Resting Blood Pressure
 
 Explain what you found about resting blood pressure.
 
-![Restbps analysis](images/prevalence_by_restbps.png)
+![Restbps analysis](images/rbp_prevalence.png)
 
 ### Cholesterol
 
 Explain what you found about cholesterol.
 
-![Chol analysis](images/prevalence_by_chol.png)
+![Chol analysis](images/chol_prevalence.png)
 
 ### Fasting Blood Sugar
 
 Explain what you found about fasting blood sugar.
 
-![Cpt analysis](images/prevalence_by_fbs.png)
+![Fbs analysis](images/prevalence_by_fbs.png)
 
 ### Resting ECG
 
 Explain what you found about resting ecg type.
 
-![ECG analysis](images/prevalence_by_ecg.png)
+![ECG analysis](images/restecg_prevalence.png)
 
 ### Max HR
 
 Explain what you found about max heart rate.
 
-![Maxhr analysis](images/prevalence_by_maxhr.png)
+![Maxhr analysis](images/maxhr_prevalence.png)
 
 ### Exercise Induced Angina
 
 Explain what you found about exercise induced angina.
 
-![Exang analysis](images/prevalence_by_exang.png)
+![Exang analysis](images/exang_prevalence.png)
 
 ### ST Slope Type
 
 Explain what you found about ST slope type.
 
-![Slope analysis](images/prevalence_by_slope.png)
+![Slope analysis](images/slope_prevalence.png)
 
 ### Thalassaemia Type
 
 Explain what you found about thalassaemia type.
 
-![Thal analysis](images/prevalence_by_thal.png)
+![Thal analysis](images/thal_prevalence.png)
 
 ## PivotTable Analysis
 
