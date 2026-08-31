@@ -86,7 +86,7 @@ Some points from the summary:
 
 ### Age
 
-The most popular age group for heart disease in this sample was the 50-59 group with a share of 41.4%.
+The most popular age group for heart disease in this sample was the 50-59 group with a share of 41.4%. However, since there the age groups were not equally distributed, it is hard to accurately draw any conclusions about age and heart disease prevalence by looking at this sample alone.
 
 ![Age group_dist](images/age_group_dist.png)
 
