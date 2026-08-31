@@ -86,7 +86,7 @@ Explain what you found about age and heart disease.
 
 ![Age group_dist](images/age_group_dist.png)
 
-![Age_group_prevalence](images/age_group_prevalence)
+![Age_group_prevalence](images/age_group_prevalence.png)
 
 ### Sex
 
