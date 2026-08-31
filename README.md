@@ -78,14 +78,15 @@ Overview
 
 54.3% of the patients had heart disease and 45.7% did not have heart disease.
 
-![General](images/prevalence.png)
+![General](images/general_prevalence.png)
 
 ### Age
 
 Explain what you found about age and heart disease.
 
 ![Age group_dist](images/age_group_dist.png)
-![Age_group_prevalance](images/age_group_prevalence)
+
+![Age_group_prevalence](images/age_group_prevalence)
 
 ### Sex
 
@@ -103,13 +104,25 @@ Explain what you found about chest-pain categories.
 
 Explain what you found about resting blood pressure.
 
+![Restbps](images/rbp.png)
+
 ![Restbps analysis](images/rbp_prevalence.png)
+
+![Restbps_age_male](images/age_vs_rbp_male.png)
+
+![Restbps_age_male](images/age_vs_rbp_female.png)
 
 ### Cholesterol
 
 Explain what you found about cholesterol.
 
+![Chol](images/cholesterol.png)
+
 ![Chol analysis](images/chol_prevalence.png)
+
+![Chol_age_male](images/age_vs_chol_male.png)
+
+![Chol_age_female](images/age_vs_chol_female.png)
 
 ### Fasting Blood Sugar
 
@@ -127,7 +140,14 @@ Explain what you found about resting ecg type.
 
 Explain what you found about max heart rate.
 
+![Maxhr](images/maxhr.png)
+
 ![Maxhr analysis](images/maxhr_prevalence.png)
+
+![Maxhr_age_male](images/age_vs_maxhr_male.png)
+
+
+![Maxhr_age_female](images/age_vs_maxhr_female.png)
 
 ### Exercise Induced Angina
 
