@@ -80,13 +80,13 @@ Some points from the summary:
 
 ### General Prevalence
 
-54.3% of the patients had heart disease and 45.7% did not have heart disease.
+54.3% of the patients in this sample had heart disease and 45.7% did not have heart disease.
 
 ![General](images/general_prevalence.png)
 
 ### Age
 
-The most popular age group for heart disease was the 50-59 group with a share of 41.4%.
+The most popular age group for heart disease in this sample was the 50-59 group with a share of 41.4%.
 
 ![Age group_dist](images/age_group_dist.png)
 
@@ -96,19 +96,19 @@ The 20-29 age group has 100% disease prevalence but this is simply due to there 
 
 ### Sex
 
-There are roughly double the amount of male patients to female patients (after cleaning the data) but I would say that there are still a fair amount of female patients to draw some conclusions. It appears that in this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease. This requires further investigation.
+There were roughly double the amount of male patients to female patients (after cleaning the data) but I would say that there are still a fair amount of female patients to draw some conclusions. It appears that in this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease. This requires further investigation.
  
 ![Sex analysis](images/sex_prevalence.png)
 
 ### Chest Pain
 
-Explain what you found about chest-pain categories.
+Chest-pain type.
 
 ![Cpt analysis](images/cpt_prevalence.png)
 
 ### Resting Blood Pressure
 
-The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, the value of the heart-disease variable tends to decrease slightly (be 0) in this dataset.
+The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease.
 
 ![Restbps](images/rbp.png)
 
@@ -138,7 +138,7 @@ The correlation coefficient for age vs. cholesterol for females was 0.038 which 
 
 Explain what you found about fasting blood sugar.
 
-![Fbs analysis](images/prevalence_by_fbs.png)
+![Fbs analysis](images/fbs_prevalence.png)
 
 ### Resting ECG
 
