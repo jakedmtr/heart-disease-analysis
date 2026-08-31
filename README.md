@@ -71,9 +71,9 @@ Attribute documentation (12 attributes in total including 'target'):
 ### Summary
 
 Some points from the summary:
-- The average age of patients was lower for patients who have heart disease (51 years old)
+- The average age of patients was lower for patients who have heart disease (51 years old for males and 54.6 years old for females).
 - The average resting blood pressure (in mmHg) was only slightly lower for males who had heart disease. They were more or less the same. For females there was a larger difference.
-- The average serum cholesterol (in mg/dl) was lower for patients who had heart disease. Also surprisingly the highest serum cholesterol value recorded for a male (353) was from a patient who did not have heart disease but the highest value recorded for a female (564) was from a patient who did have the disease. This could suggest that serum cholesterol does not correlate to a patient having heart disease or that it differs for males and females.
+- The average serum cholesterol (in mg/dl) was lower for patients who had heart disease. Also the highest serum cholesterol value recorded for a male (353) was from a patient who did not have heart disease but the highest value recorded for a female (564) was from a patient who did have heart disease. This could suggest that serum cholesterol does not correlate to a patient having heart disease or that it differs for males and females.
 - The average maximum heart rate (in bpm) was higher for both sexes for patients who had heart disease. This may suggest that this sample had more patients in lower age groups with heart disease than those without heart disease, as higher maximum heart usually correlates to a younger age. Looking at the average ages for both males and females, we can indeed see that this is the case as the diseased group has lower average ages and that of the non-diseased group.
 
 ![Summary](images/summary.png)
