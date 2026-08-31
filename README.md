@@ -82,16 +82,18 @@ Overview
 
 ### Age
 
-Explain what you found about age and heart disease.
+The most popular age group for heart disease was the 50-59 group with a share of 41.4%.
 
 ![Age group_dist](images/age_group_dist.png)
+
+The 20-29 age group has 100% disease prevalence but this is simply due to there not being enough samples from that age group, in fact there's only one patient from that age group and that person happens to have the disease. More data is necessary to draw further conclusions about the prevalence of this age group. Similarly, the 30-39 age group is the next age group with the highest prevalence but this age group also has few samples so I would conclude that the 40-49 age group is in fact the group with the highest disease prevalence from this study. That is, in the 40-49 age group, 69.4% of all patients in this age group have heart disease.
 
 ![Age_group_prevalence](images/age_group_prevalence.png)
 
 ### Sex
 
-Explain what you found about sex and heart disease.
-
+There are roughly double the amount of male patients to female patients (after cleaning the data) but I would say that there are still a fair amount of female patients to draw some conclusions. It appears that in this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease. This requires further investigation.
+ 
 ![Sex analysis](images/sex_prevalence.png)
 
 ### Chest Pain
