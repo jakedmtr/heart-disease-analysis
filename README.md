@@ -68,11 +68,15 @@ Attribute documentation (12 attributes in total including 'target'):
 
 ## Exploratory Data Analysis
 
-### Overwiew
+### Summary
 
-Overview
+Some points from the summary:
+- The average age of patients was lower for patients who have heart disease (51 years old)
+- The average resting blood pressure (in mmHg) was only slightly lower for males who had heart disease. They were more or less the same. For females there was a larger difference.
+- The average serum cholesterol (in mg/dl) was lower for patients who had heart disease. Also surprisingly the highest serum cholesterol value recorded for a male (353) was from a patient who did not have heart disease but the highest value recorded for a female (564) was from a patient who did have the disease. This could suggest that serum cholesterol does not correlate to a patient having heart disease or that it differs for males and females.
+- The average maximum heart rate (in bpm) was higher for both sexes for patients who had heart disease. This may suggest that this sample had more patients in lower age groups with heart disease than those without heart disease, as higher maximum heart usually correlates to a younger age. Looking at the average ages for both males and females, we can indeed see that this is the case as the diseased group has lower average ages and that of the non-diseased group.
 
-![Overview](images/overview.png)
+![Summary](images/summary.png)
 
 ### General Prevalence
 
@@ -104,7 +108,7 @@ Explain what you found about chest-pain categories.
 
 ### Resting Blood Pressure
 
-Explain what you found about resting blood pressure.
+The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, the value of the heart-disease variable tends to decrease slightly (be 0) in this dataset.
 
 ![Restbps](images/rbp.png)
 
@@ -116,13 +120,17 @@ Explain what you found about resting blood pressure.
 
 ### Cholesterol
 
-Explain what you found about cholesterol.
+The correlation coefficient of serum cholesterol vs. having the disease was -0.081, suggesting a very weak negative correlation. Higher values of the cholesterol are only very slightly associated with a lower likelihood of heart disease in this sample.
 
 ![Chol](images/cholesterol.png)
 
 ![Chol analysis](images/chol_prevalence.png)
 
+The correlation coefficient for age vs. cholesterol for males was 0.330 which suggests a moderate correlation. Higher ages in males tended to be associated with higher values of serum cholesterol. Compare this with females below.
+
 ![Chol_age_male](images/age_vs_chol_male.png)
+
+The correlation coefficient for age vs. cholesterol for females was 0.038 which suggests a very weak correlation. Higher ages in females did not tend to be associated with higher values of serum cholesterol (or rather, only very slightly). Compare this with males above.
 
 ![Chol_age_female](images/age_vs_chol_female.png)
 
@@ -140,7 +148,7 @@ Explain what you found about resting ecg type.
 
 ### Max HR
 
-Explain what you found about max heart rate.
+The correlation coefficient of max hr vs. having the disease was 0.420, suggesting a moderate correlation. Higher max hr values tended to be associated with a patient having heart disease in this sample.
 
 ![Maxhr](images/maxhr.png)
 
