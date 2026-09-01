@@ -102,11 +102,15 @@ There were roughly double the amount of male patients to female patients (after 
 
 ### Chest Pain
 
+[Explain here the 4 different types of chest pain]
+
 The most common type of chest pain experienced by patients was typical angina, however this was the least prevalent chest pain type among those with heart disease. The other three chest pain types all seemed to be associated with having heart disease as they all had prevalence above 69%.
 
 ![Cpt analysis](images/cpt_prevalence.png)
 
 ### Resting Blood Pressure
+
+[Explain resting blood pressure and how it was recorded in this study] 
 
 The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease. Lower values of resting blood pressure tended to be associated with a patient more likely to have heart disease.
 
@@ -114,11 +118,17 @@ The correlation coefficient of resting blood pressure vs. having the disease was
 
 ![Restbps analysis](images/rbp_prevalence.png)
 
+[Corr coefficient for males]
+
 ![Restbps_age_male](images/age_vs_rbp_male.png)
+
+[Corr coeff for females]
 
 ![Restbps_age_male](images/age_vs_rbp_female.png)
 
 ### Cholesterol
+
+[Explain what serum cholesterol is]
 
 The correlation coefficient of serum cholesterol vs. having the disease was -0.081, suggesting a very weak negative correlation. Higher values of the cholesterol are only very slightly associated with a lower likelihood of heart disease in this sample.
 
@@ -136,17 +146,19 @@ The correlation coefficient for age vs. cholesterol for females was 0.038 which 
 
 ### Fasting Blood Sugar
 
-Explain what you found about fasting blood sugar.
+[Explain what fasting blood sugar is]
 
 ![Fbs analysis](images/fbs_prevalence.png)
 
 ### Resting ECG
 
-Explain what you found about resting ecg type.
+[Explain what esting ecg type is]
 
 ![ECG analysis](images/restecg_prevalence.png)
 
 ### Max HR
+
+[Explain what max hr is]
 
 The correlation coefficient of max hr vs. having the disease was 0.420, suggesting a moderate correlation. Higher max hr values tended to be associated with a patient having heart disease in this sample.
 
@@ -154,26 +166,29 @@ The correlation coefficient of max hr vs. having the disease was 0.420, suggesti
 
 ![Maxhr analysis](images/maxhr_prevalence.png)
 
+[Corr coeff for males]
+
 ![Maxhr_age_male](images/age_vs_maxhr_male.png)
 
+[Corr coefficient for females]
 
 ![Maxhr_age_female](images/age_vs_maxhr_female.png)
 
 ### Exercise Induced Angina
 
-Explain what you found about exercise induced angina.
+[Explain what exercise induced angina is]
 
 ![Exang analysis](images/exang_prevalence.png)
 
 ### ST Slope Type
 
-Explain what you found about ST slope type.
+[Explain what ST slope type is]
 
 ![Slope analysis](images/slope_prevalence.png)
 
 ### Thalassaemia Type
 
-Explain what you found about thalassaemia type.
+[Explain what Thalassaemia type is]
 
 ![Thal analysis](images/thal_prevalence.png)
 
@@ -198,7 +213,7 @@ Explain how PivotTables were used to investigate relationships between variables
 
 The complete Excel analysis is available here:
 
-`excel/heart_disease_analysis.xlsx`
+`/excel/heart_disease_analysis.xlsx`
 
 ## Tools
 
