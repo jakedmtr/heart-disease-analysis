@@ -65,7 +65,7 @@ Attribute documentation:
 
 ## Excel Workbook
 
-The complete Excel analysis is available here: `/excel/cleveland_heart_disease_analysis.xlsx`.
+The complete Excel analysis is available here: `/analysis/cleveland_heart_disease_analysis.xlsx`.
 
 ## Tools
 
