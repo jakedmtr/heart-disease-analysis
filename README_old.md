@@ -176,7 +176,7 @@ The correlation coefficient of max hr vs. having the disease was 0.420, suggesti
 
 The complete Excel analysis is available here:
 
-`/excel/kaggle_heart_disease_analysis.xlsx`
+`/analysis/kaggle_heart_disease_analysis.xlsx`
 
 ## Tools
 
