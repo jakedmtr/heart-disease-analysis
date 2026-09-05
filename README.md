@@ -12,11 +12,13 @@ The initial analysis used a publicly available Kaggle version of the Heart Disea
 
 The original Kaggle dataset contained 1,025 records, but investigation revealed substantial duplication. Duplicate records (723) were removed before analysis. The dataset also used an inverted binary target relative to the original UCI definition, so the target variable was re-encoded such that 0 represents absence of heart disease and 1 represents presence of heart disease. Variable encodings were checked against the original UCI Cleveland Heart Disease dataset. The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete (303 data points) and processed as the other 3 databases contain missing values. The Kaggle data set seems to just use the Cleveland dataset but duplicated to increase the number of data points, which is very bad practice. I noticed during my project that the relationships seemed odd so I investigated and then found out the above information. So now I have instead just used the original processed Cleveland dataset (`/data/cleveland_data.data`) but have left the altered Kaggle version for comparison (`/data/kaggle_data.csv`).
 
-The "target" field refers to the presence of heart disease in the patient: it is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). The author of the Kaggle data set re-encoded all rows with values 1-4 to just be 1 and then also (probably by mistake) inverted the target field, such that patients who didn't have heart disease seemingly had it, and vice-versa.
 
-I removed the 'ca' field (number of major vessels coloured by fluoroscopy) and the 'oldpeak' field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the total number of columns to 12.
 
-Attribute documentation (12 attributes in total including 'target'):
+The `num` field refers to the presence of heart disease in the patient: it is integer valued from 0 (no presence) to 4. According to the UCI documentation, 0 represents absence of heart disease, while values 1–4 represent presence of heart disease. However, since the UCI documentation does not provide distinct interpretations for values 1–4, the variable was transformed into a binary variable for analysis. The author of the Kaggle data set also re-encoded all rows with values 1-4 to just be 1 but then also (probably by mistake) inverted the values, such that patients who didn't have heart disease seemingly had it, and vice-versa, which created unusual relationships between the categorical variables and the target variable.
+
+I removed the `ca` field (number of major vessels coloured by fluoroscopy) and the `oldpeak` field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis. I added the `hd` field which is the `num` re=encoded into a binary format, which brought the total number of columns to 13.
+
+Attribute documentation:
       
       1 age: age in years
 
@@ -50,7 +52,9 @@ Attribute documentation (12 attributes in total including 'target'):
         
      11 thal: 1 = normal; 2 = fixed defect; 3 = reversible defect
      
-     12 target: diagnosis of heart disease; 0 = no disease and 1-4 = likelihood of disease, 4 being the most likely.
+     12 num: diagnosis of heart disease; 0 = no disease and 1-4 = presence of disease
+
+     13 hd: num attribute re-encoded to a binary format, where 0 is simply the absence of heart disease and 1 is the presence of heart disease in a patient
 
 ## Objectives
 
