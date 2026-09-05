@@ -62,7 +62,7 @@ Attribute documentation (12 attributes in total including 'target'):
 - No invalid values recorded
 - All data types converted to correct format
 
-![Data_cleaning](images/data_quality.png)
+![Data_cleaning](figures/kaggle/data_quality.png)
 
 ## Exploratory Data Analysis
 
@@ -74,103 +74,103 @@ Some points from the summary:
 - The average serum cholesterol (in mg/dl) was lower for patients who had heart disease. Also the highest serum cholesterol value recorded for a male (353) was from a patient who did not have heart disease but the highest value recorded for a female (564) was from a patient who did have heart disease. This could suggest that serum cholesterol does not correlate to a patient having heart disease or that it differs for males and females.
 - The average maximum heart rate (in bpm) was higher for both sexes for patients who had heart disease. This may suggest that this sample had more patients in lower age groups with heart disease than those without heart disease, as higher maximum heart usually correlates to a younger age. Looking at the average ages for both males and females, we can indeed see that this is the case as the diseased group has lower average ages and that of the non-diseased group.
 
-![Summary](images/summary.png)
+![Summary](figures/kaggle/summary.png)
 
 ### General Prevalence
 
 54.3% of the patients in this sample had heart disease and 45.7% did not have heart disease.
 
-![General](images/general_prevalence.png)
+![General](figures/kaggle/general_prevalence.png)
 
 ### Age
 
 The most popular age group for heart disease in this sample was the 50-59 group with a share of 41.4%. However, since the age groups were not equally distributed (i.e. the wasn't an equal number of patients in each age group), it is hard to accurately draw any conclusions about age and heart disease prevalence by looking at this sample alone.
 
-![Age group_dist](images/age_group_dist.png)
+![Age group_dist](figures/kaggle/age_group_dist.png)
 
 The 20-29 age group has 100% disease prevalence but this is simply due to there not being enough samples from that age group, in fact there's only one patient from that age group and that person happens to have the disease. More data is necessary to draw further conclusions about the prevalence of this age group. Similarly, the 30-39 age group is the next age group with the highest prevalence but this age group also has few samples so I would conclude that the 40-49 age group is in fact the group with the highest disease prevalence from this study. That is, in the 40-49 age group, 69.4% of all patients in this age group have heart disease.
 
-![Age_group_prevalence](images/age_group_prevalence.png)
+![Age_group_prevalence](figures/kaggle/age_group_prevalence.png)
 
 ### Sex
 
 There were roughly double the amount of male patients to female patients (after cleaning the data) but still a fair amount of female patients to perform some analysis. In this sample, 75% of all female patients have heart disease, whilst only about 45% of male patients have heart disease, suggesting that a patient being female may be more closely associated with having heart disease.
  
-![Sex analysis](images/sex_prevalence.png)
+![Sex analysis](figures/kaggle/sex_prevalence.png)
 
 ### Chest Pain
 
 The most common type of chest pain experienced by patients was typical angina, however this was the least prevalent chest pain type among those with heart disease. The other three chest pain types all seemed to be associated with having heart disease as they all had prevalence above 69%.
 
-![Cpt analysis](images/cpt_prevalence.png)
+![Cpt analysis](figures/kaggle/cpt_prevalence.png)
 
 ### Resting Blood Pressure
 
 The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease. Lower values of resting blood pressure tended to be associated with a patient more likely to have heart disease.
 
-![Restbps](images/rbp.png)
+![Restbps](figures/kaggle/rbp.png)
 
-![Restbps analysis](images/rbp_prevalence.png)
+![Restbps analysis](figures/kaggle/rbp_prevalence.png)
 
 [Corr coefficient for males]
 
-![Restbps_age_male](images/age_vs_rbp_male.png)
+![Restbps_age_male](figures/kaggle/age_vs_rbp_male.png)
 
 [Corr coeff for females]
 
-![Restbps_age_male](images/age_vs_rbp_female.png)
+![Restbps_age_male](figures/kaggle/age_vs_rbp_female.png)
 
 ### Cholesterol
 
 The correlation coefficient of serum cholesterol vs. having the disease was -0.081, suggesting a very weak negative correlation. Higher values of the cholesterol are only very slightly associated with a lower likelihood of heart disease in this sample.
 
-![Chol](images/cholesterol.png)
+![Chol](figures/kaggle/cholesterol.png)
 
-![Chol analysis](images/chol_prevalence.png)
+![Chol analysis](figures/kaggle/chol_prevalence.png)
 
 The correlation coefficient for age vs. cholesterol for males was 0.330 which suggests a moderate correlation. Higher ages in males tended to be associated with higher values of serum cholesterol. Compare this with females below.
 
-![Chol_age_male](images/age_vs_chol_male.png)
+![Chol_age_male](figures/kaggle/age_vs_chol_male.png)
 
 The correlation coefficient for age vs. cholesterol for females was 0.038 which suggests a very weak correlation. Higher ages in females did not tend to be associated with higher values of serum cholesterol (or rather, only very slightly). Compare this with males above.
 
-![Chol_age_female](images/age_vs_chol_female.png)
+![Chol_age_female](figures/kaggle/age_vs_chol_female.png)
 
 ### Fasting Blood Sugar
 
-![Fbs analysis](images/fbs_prevalence.png)
+![Fbs analysis](figures/kaggle/fbs_prevalence.png)
 
 ### Resting ECG
 
-![ECG analysis](images/restecg_prevalence.png)
+![ECG analysis](figures/kaggle/restecg_prevalence.png)
 
 ### Max HR
 
 The correlation coefficient of max hr vs. having the disease was 0.420, suggesting a moderate correlation. Higher max hr values tended to be associated with a patient having heart disease in this sample.
 
-![Maxhr](images/maxhr.png)
+![Maxhr](figures/kaggle/maxhr.png)
 
-![Maxhr analysis](images/maxhr_prevalence.png)
+![Maxhr analysis](figures/kaggle/maxhr_prevalence.png)
 
 [Corr coeff for males]
 
-![Maxhr_age_male](images/age_vs_maxhr_male.png)
+![Maxhr_age_male](figures/kaggle/age_vs_maxhr_male.png)
 
 [Corr coefficient for females]
 
-![Maxhr_age_female](images/age_vs_maxhr_female.png)
+![Maxhr_age_female](figures/kaggle/age_vs_maxhr_female.png)
 
 ### Exercise Induced Angina
 
-![Exang analysis](images/exang_prevalence.png)
+![Exang analysis](figures/kaggle/exang_prevalence.png)
 
 ### ST Slope Type
 
-![Slope analysis](images/slope_prevalence.png)
+![Slope analysis](figures/kaggle/slope_prevalence.png)
 
 ### Thalassaemia Type
 
-![Thal analysis](images/thal_prevalence.png)
+![Thal analysis](figures/kaggle/thal_prevalence.png)
 
 ## Excel Workbook
 
