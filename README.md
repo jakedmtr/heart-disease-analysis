@@ -1,6 +1,6 @@
 # Heart Disease Analysis
 
-The analysis and Excel workbook in this repository are licensed under the MIT License. The underlying dataset is sourced from Kaggle and remains subject to its original license and terms.
+The underlying dataset is sourced from Kaggle here: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download which is in term sourced from https://archive.ics.uci.edu/dataset/45/heart+disease.
 
 ## Overview
 
@@ -8,11 +8,9 @@ An analysis of heart disease patients using Microsoft Excel. Here I investigated
 
 ## Dataset
 
-The data set I used was from Kaggle: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download
+The original Kaggle dataset contained 1,025 records, but investigation revealed substantial duplication. Duplicate records (723) were removed before analysis. The dataset also used an inverted binary target relative to the original UCI definition, so the target variable was re-encoded such that 0 represents absence of heart disease and 1 represents presence of heart disease. Variable encodings were checked against the original UCI Cleveland Heart Disease dataset. The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete and processed as the other 3 databases contain missing values. The Kaggle data set seems to just use the Cleveland dataset but duplicated to increase the number of data points, which is very bad practice. I noticed during my project that the relationships seemed odd so I investigated and then found out the above information. So now I have instead just used the original processed Cleveland dataset (/data/cleveland) but have left the Kaggle versions for comparison.
 
-In the original data there were 1025 data points but 723 of them were duplicates, leaving only 302 unique data points.
-
-This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) and the 'oldpeak' attribute (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the number of columns to 12.
+The "target" field refers to the presence of heart disease in the patient. I removed the 'ca' attribute (number of major vessels coloured by fluoroscopy) and the 'oldpeak' attribute (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the number of columns to 12.
 
 Attribute documentation (12 attributes in total including 'target'):
       
