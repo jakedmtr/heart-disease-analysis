@@ -172,23 +172,6 @@ The correlation coefficient of max hr vs. having the disease was 0.420, suggesti
 
 ![Thal analysis](images/thal_prevalence.png)
 
-## PivotTable Analysis
-
-Explain how PivotTables were used to investigate relationships between variables.
-
-## Key Findings
-
-1. ...
-2. ...
-3. ...
-
-## Limitations
-
-- Dataset limitations
-- Sample size/composition
-- Observational nature of the data
-- Association does not imply causation
-
 ## Excel Workbook
 
 The complete Excel analysis is available here:
