@@ -6,17 +6,11 @@ The dataset is sourced from Kaggle here: https://www.kaggle.com/datasets/johnsmi
 
 ## Overview
 
-An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
-
-The initial analysis used a publicly available Kaggle version of the Heart Disease dataset. During data validation, substantial duplication and differences in target encoding were identified. The original UCI Cleveland dataset was subsequently obtained and used to produce a second analysis based on the original source data. Both analyses are retained to demonstrate how dataset quality and preprocessing decisions can affect exploratory analysis.
+An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease. This analysis used a publicly available Kaggle version of the Heart Disease dataset.
 
 ## Dataset
 
-The original Kaggle dataset contained 1,025 records, but investigation revealed substantial duplication. Duplicate records (723) were removed before analysis. The dataset also used an inverted binary target relative to the original UCI definition, so the target variable was re-encoded such that 0 represents absence of heart disease and 1 represents presence of heart disease. Variable encodings were checked against the original UCI Cleveland Heart Disease dataset. The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete and processed as the other 3 databases contain missing values. The Kaggle data set seems to just use the Cleveland dataset but duplicated to increase the number of data points, which is very bad practice. I noticed during my project that the relationships seemed odd so I investigated and then found out the above information. So now I have instead just used the original processed Cleveland dataset (/data/cleveland_data.data) but have left the altered Kaggle version for comparison (/data/kaggle_data.csv).
-
-The "target" field refers to the presence of heart disease in the patient. The original data set used the values 0-4 where 0 signified no heart disease and values 1-4 appear to signify different degrees of the possibility of a patient having heart disease, with 4 being the highest. The author of the Kaggle data set re-encoded all rows with values 1-4 to just be 1 and then also (probably by mistake) inverted the target field, such that patients who didn't have heart disease seemingly had it, and vice-versa.
-
-I removed the 'ca' field (number of major vessels coloured by fluoroscopy) and the 'oldpeak' field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the total number of columns to 12.
+This Kaggle dataset contained 1,025 records, but investigation revealed substantial duplication. The duplicate records (723) were removed before analysis. The "target" field refers to the presence of heart disease in the patient, where 0 = no heart disease and 1 = heart disease. I removed the 'ca' field (number of major vessels coloured by fluoroscopy) and the 'oldpeak' field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis, which brings down the total number of columns to 12.
 
 Attribute documentation (12 attributes in total including 'target'):
       
@@ -63,7 +57,6 @@ Attribute documentation (12 attributes in total including 'target'):
 
 ## Data Cleaning
 
-This is the data cleaning performed on the Kaggle data set. For the Cleveland data set the data was already cleaned.
 - I checked for missing values; fortunately there were none.
 - I checked for duplicate records; as mentioned above there were 723 duplicates recorded and purged.
 - No invalid values recorded
@@ -107,15 +100,11 @@ There were roughly double the amount of male patients to female patients (after 
 
 ### Chest Pain
 
-[Explain here the 4 different types of chest pain]
-
 The most common type of chest pain experienced by patients was typical angina, however this was the least prevalent chest pain type among those with heart disease. The other three chest pain types all seemed to be associated with having heart disease as they all had prevalence above 69%.
 
 ![Cpt analysis](images/cpt_prevalence.png)
 
 ### Resting Blood Pressure
-
-[Explain resting blood pressure and how it was recorded in this study] 
 
 The correlation coefficient of resting blood pressure vs. having the disease was -0.146, suggesting a weak negative correlation. That is, as resting blood pressure increases, a patient tends to not have heart disease. Lower values of resting blood pressure tended to be associated with a patient more likely to have heart disease.
 
@@ -133,8 +122,6 @@ The correlation coefficient of resting blood pressure vs. having the disease was
 
 ### Cholesterol
 
-[Explain what serum cholesterol is]
-
 The correlation coefficient of serum cholesterol vs. having the disease was -0.081, suggesting a very weak negative correlation. Higher values of the cholesterol are only very slightly associated with a lower likelihood of heart disease in this sample.
 
 ![Chol](images/cholesterol.png)
@@ -151,19 +138,13 @@ The correlation coefficient for age vs. cholesterol for females was 0.038 which 
 
 ### Fasting Blood Sugar
 
-[Explain what fasting blood sugar is]
-
 ![Fbs analysis](images/fbs_prevalence.png)
 
 ### Resting ECG
 
-[Explain what esting ecg type is]
-
 ![ECG analysis](images/restecg_prevalence.png)
 
 ### Max HR
-
-[Explain what max hr is]
 
 The correlation coefficient of max hr vs. having the disease was 0.420, suggesting a moderate correlation. Higher max hr values tended to be associated with a patient having heart disease in this sample.
 
@@ -181,19 +162,13 @@ The correlation coefficient of max hr vs. having the disease was 0.420, suggesti
 
 ### Exercise Induced Angina
 
-[Explain what exercise induced angina is]
-
 ![Exang analysis](images/exang_prevalence.png)
 
 ### ST Slope Type
 
-[Explain what ST slope type is]
-
 ![Slope analysis](images/slope_prevalence.png)
 
 ### Thalassaemia Type
-
-[Explain what Thalassaemia type is]
 
 ![Thal analysis](images/thal_prevalence.png)
 
@@ -218,7 +193,7 @@ Explain how PivotTables were used to investigate relationships between variables
 
 The complete Excel analysis is available here:
 
-`/excel/heart_disease_analysis.xlsx`
+`/excel/kaggle_heart_disease_analysis.xlsx`
 
 ## Tools
 
