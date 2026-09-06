@@ -168,10 +168,6 @@ The correlation coefficient of max hr vs. having the disease was 0.420, suggesti
 
 ![Slope analysis](figures/kaggle/slope_prevalence.png)
 
-### Thalassaemia Type
-
-![Thal analysis](figures/kaggle/thal_prevalence.png)
-
 ## Excel Workbook
 
 The complete Excel analysis is available here:
