@@ -50,7 +50,7 @@ Attribute documentation:
         -- Value 2: flat
         -- Value 3: down-sloping
         
-     11 thal: the patient's thalassemia-related blood-test result
+     11 thal: thallium stress test result indicating myocardial perfusion
         -- 3 = normal
         -- 6 = fixed defect
         -- 7 = reversible defect
