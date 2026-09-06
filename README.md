@@ -30,7 +30,7 @@ Attribute documentation:
         -- Value 3: non-anginal pain
         -- Value 4: asymptomatic
         
-      4 rbp: resting systolic blood pressure (mm Hg)
+      4 rbp: resting systolic blood pressure (mmHg)
       
       5 chol: serum cholesterol (mg/dl)
       
