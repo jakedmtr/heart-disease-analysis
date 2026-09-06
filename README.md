@@ -50,7 +50,10 @@ Attribute documentation:
         -- Value 2: flat
         -- Value 3: down-sloping
         
-     11 thal: 1 = normal; 2 = fixed defect; 3 = reversible defect
+     11 thal: the patient's thalassemia-related blood-test result
+        -- 3 = normal
+        -- 6 = fixed defect
+        -- 7 = reversible defect
      
      12 num: diagnosis of heart disease; 0 = no disease and 1-4 = presence of disease
 
