@@ -43,7 +43,7 @@ Attribute documentation:
         
       8 maxhr: maximum heart rate achieved (bpm) during exercise
       
-      9 exang: patient suffers from exercise induced angina (1 = yes; 0 = no)
+      9 exang: patient suffers from exercise-induced angina (1 = yes; 0 = no)
      
      10 slope: the slope of the peak exercise ST segment
         -- Value 1: up-sloping
