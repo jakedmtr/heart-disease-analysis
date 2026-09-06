@@ -30,11 +30,11 @@ Attribute documentation:
         -- Value 3: non-anginal pain
         -- Value 4: asymptomatic
         
-      4 restbps: resting blood pressure (in mm Hg on admission to the hospital)
+      4 restbps: resting systolic blood pressure (mm Hg)
       
-      5 chol: serum cholesterol in mg/dl
+      5 chol: serum cholesterol (mg/dl)
       
-      6 fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)
+      6 fbs: fasting blood sugar > 120 mg/dl  (1 = true; 0 = false)
       
       7 restecg: resting electrocardiographic results
         -- Value 0: normal
@@ -43,7 +43,7 @@ Attribute documentation:
         
       8 maxhr: maximum heart rate achieved (bpm)
       
-      9 exang: exercise induced angina (1 = yes; 0 = no)
+      9 exang: patient suffers from exercise induced angina (1 = yes; 0 = no)
      
      10 slope: the slope of the peak exercise ST segment
         -- Value 1: up-sloping
