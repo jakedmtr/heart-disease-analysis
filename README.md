@@ -41,7 +41,7 @@ Attribute documentation:
         -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
         -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
         
-      8 maxhr: maximum heart rate achieved (bpm)
+      8 maxhr: maximum heart rate achieved (bpm) during exercise
       
       9 exang: patient suffers from exercise induced angina (1 = yes; 0 = no)
      
