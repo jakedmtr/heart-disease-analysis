@@ -1,14 +1,9 @@
 # Heart Disease Analysis
 
+An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease. 
 The dataset is sourced from https://archive.ics.uci.edu/dataset/45/heart+disease.
 
-## Overview
-
-An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
-
-## Dashboard
-
-![Cleveland Heart Disease Dashboard](images/dashboard.png)
+[Download the Excel workbook here](analysis/cleveland_heart_disease_analysis.xlsx)
 
 ## Project Objectives
 
@@ -17,6 +12,10 @@ An analysis of heart disease patients using Microsoft Excel. Here I investigated
 - Compare categorical and continuous variables.
 - Build PivotTables and visualisations.
 - Create an interactive Excel Dashboard.
+
+## Dashboard
+
+![Cleveland Heart Disease Dashboard](images/dashboard.png)
 
 ## Key findings
 
@@ -27,10 +26,6 @@ An analysis of heart disease patients using Microsoft Excel. Here I investigated
 - Thallium stress test results and ST-slope showed clear differences between disease groups.
 
 These relationships are descriptive associations within the dataset and should not be interpreted as causal effects.
-
-## Files
-
-[Download the Excel workbook](analysis/cleveland_heart_disease_analysis.xlsx)
 
 ## Dataset
 
