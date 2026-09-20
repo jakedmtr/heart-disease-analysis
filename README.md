@@ -1,6 +1,6 @@
 # Heart Disease Analysis
 
-The dataset is sourced from Kaggle here: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?resource=download which is originally sourced from https://archive.ics.uci.edu/dataset/45/heart+disease.
+The dataset is sourced from https://archive.ics.uci.edu/dataset/45/heart+disease.
 
 ## Overview
 
