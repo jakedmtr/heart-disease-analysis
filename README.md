@@ -6,6 +6,32 @@ The dataset is sourced from https://archive.ics.uci.edu/dataset/45/heart+disease
 
 An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
 
+## Dashboard
+
+![Cleveland Heart Disease Dashboard](images/dashboard.png)
+
+## Project Objectives
+
+- Clean and prepare the original Cleveland dataset if necessary.
+- Explore heart disease prevalence across patient groups.
+- Compare categorical and continuous variables.
+- Build PivotTables and visualisations.
+- Create an interactive Excel Dashboard.
+
+## Key findings
+
+- 45.9% of patients in the dataset were classified as having heart disease.
+- Heart disease prevalence was higher among males than females in this sample.
+- Asymptomatic chest pain was associated with substantially higher heart disease prevalence.
+- Patients with exercise-induced angina showed substantially higher heart disease prevalence.
+- Thallium stress test results and ST-slope showed clear differences between disease groups.
+
+These relationships are descriptive associations within the dataset and should not be interpreted as causal effects.
+
+## Files
+
+[Download the Excel workbook](analysis/cleveland_heart_disease_analysis.xlsx)
+
 ## Dataset
 
 The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete (303 data points) and processed as the other 3 databases contain missing values. 
@@ -54,21 +80,3 @@ Attribute documentation:
      12 num: diagnosis of heart disease; 0 = no disease and 1-4 = presence of disease
 
      13 hd: num attribute re-encoded to a binary format, where 0 is simply the absence of heart disease and 1 is the presence of heart disease in a patient
-
-## Objectives
-
-- Investigate demographic patterns in heart disease
-- Analyse relationships between clinical variables and heart disease
-- Compare patients with and without heart disease
-- Identify notable patterns in the dataset
-
-## Excel Workbook
-
-The complete Excel workbook is available here: `/analysis/cleveland_heart_disease_analysis.xlsx`.
-
-## Tools
-
-- Microsoft Excel
-- PivotTables
-- Excel formulas
-- Charts
