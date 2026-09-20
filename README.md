@@ -6,17 +6,13 @@ The dataset is sourced from https://archive.ics.uci.edu/dataset/45/heart+disease
 
 An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease.
 
-The initial analysis used a publicly available Kaggle version of the Heart Disease dataset. During data validation, substantial duplication and differences in target encoding were identified. The original UCI Cleveland dataset was subsequently obtained and used to produce a second analysis based on the original source data. Both analyses are retained to demonstrate how dataset quality and preprocessing decisions can affect exploratory analysis.
-
 ## Dataset
 
-The original Kaggle dataset contained 1,025 records, but investigation revealed substantial duplication. Duplicate records (723) were removed before analysis. The dataset also used an inverted binary target relative to the original UCI definition, so the target variable was re-encoded such that 0 represents absence of heart disease and 1 represents presence of heart disease. Variable encodings were checked against the original UCI Cleveland Heart Disease dataset. The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete (303 data points) and processed as the other 3 databases contain missing values. The Kaggle data set seems to just use the Cleveland dataset but duplicated to increase the number of data points, which is very bad practice. I noticed during my project that the relationships seemed odd so I investigated and then found out the above information. So now I have instead just used the original processed Cleveland dataset (`/data/cleveland_data.data`) but have left the altered Kaggle version for comparison (`/data/kaggle_data.csv`).
+The original data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach VA and it contained 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. However, only the Cleveland dataset is complete (303 data points) and processed as the other 3 databases contain missing values. 
 
+The `num` field refers to the presence of heart disease in the patient: it is integer valued from 0 (no presence) to 4. According to the UCI documentation, 0 represents absence of heart disease, while values 1–4 represent presence of heart disease. However, since the UCI documentation does not provide distinct interpretations for values 1–4, the variable was transformed into a binary variable for analysis.
 
-
-The `num` field refers to the presence of heart disease in the patient: it is integer valued from 0 (no presence) to 4. According to the UCI documentation, 0 represents absence of heart disease, while values 1–4 represent presence of heart disease. However, since the UCI documentation does not provide distinct interpretations for values 1–4, the variable was transformed into a binary variable for analysis. The author of the Kaggle data set also re-encoded all rows with values 1-4 to just be 1 but then also (probably by mistake) inverted the values, such that patients who didn't have heart disease seemingly had it, and vice-versa, which created unusual relationships between the categorical variables and the target variable.
-
-I removed the `ca` field (number of major vessels coloured by fluoroscopy) and the `oldpeak` field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis. I added the `hd` field which is the `num` re=encoded into a binary format, which brought the total number of columns to 13.
+I removed the `ca` field (number of major vessels coloured by fluoroscopy) and the `oldpeak` field (ST depression induced by exercise relative to rest) as I didn't use them in my analysis. I added the `hd` field which is `num` re-encoded into a binary format, which brought the total number of columns to 13.
 
 Attribute documentation:
       
@@ -68,7 +64,7 @@ Attribute documentation:
 
 ## Excel Workbook
 
-The complete Excel analysis is available here: `/analysis/cleveland_heart_disease_analysis.xlsx`.
+The complete Excel workbook is available here: `/analysis/cleveland_heart_disease_analysis.xlsx`.
 
 ## Tools
 
