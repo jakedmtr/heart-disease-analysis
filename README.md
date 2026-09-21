@@ -1,6 +1,6 @@
 # Heart Disease Analysis
 
-An analysis of heart disease patients using Microsoft Excel. Here I investigated which attributes show a correlation with heart disease. 
+AAn exploratory analysis of the Cleveland Heart Disease dataset using Microsoft Excel, investigating associations between patient characteristics and heart disease prevalence.
 The dataset is sourced from https://archive.ics.uci.edu/dataset/45/heart+disease.
 
 [Download the Excel workbook here](analysis/cleveland_heart_disease_analysis.xlsx)
